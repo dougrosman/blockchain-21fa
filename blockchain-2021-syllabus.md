@@ -10,7 +10,6 @@ __INSTITUTION:__ The School of the Art Institute of Chicago
 
 Doug Rosman, Lecturer | drosman@saic.edu | <a href="http://dougrosman.com" target="blank">dougrosman.com</a>
 
-
 #### CLASS WEBSITE/MATERIALS
 All course material will be published to the class [Canvas](https://saic.instructure.com/courses/2861598) page.
 
