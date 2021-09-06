@@ -1,11 +1,11 @@
 # Blockchain: The New Internet | ARTTECH 4144 – SYLLABUS
 
 * __CREDITS:__ 3
-* __SEMESTER:__ Fall 2021 | Tuesday Sep 7, 2021 – Tuesday Dec 14, 2021
+* __SEMESTER:__ Fall 2021 — Tuesday Sep 7, 2021 – Tuesday Dec 14, 2021
 * __MEETING DAYS/TIMES:__ Tuesdays, 9am-5pm (9am-12pm, BREAK, 2p-5p)
 * __LOCATION:__ Online only (Zoom link will be posted in Canvas)
 * __INSTITUTION:__ The School of the Art Institute of Chicago
-* __INSTRUCTOR:__ Doug Rosman, Lecturer | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
+* __INSTRUCTOR:__ Doug Rosman, Lecturer — drosman@saic.edu — [dougrosman.com](https://dougrosman.com)
 * __LAST DAY OF ADD/DROP:__ Tuesday, September 14
 
 ## **CLASS WEBSITE AND MATERIALS**
