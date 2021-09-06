@@ -6,51 +6,58 @@ __MEETING DAYS/TIMES:__ Tuesdays, 9am-5pm (9am-12pm, BREAK, 2p-5p)
 __LOCATION:__ Online only (Zoom link will be posted in Canvas)
 __INSTITUTION:__ The School of the Art Institute of Chicago
 
-#### INSTRUCTOR
+__INSTRUCTOR:__ Doug Rosman, Lecturer | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
 
-Doug Rosman, Lecturer | drosman@saic.edu | <a href="http://dougrosman.com" target="blank">dougrosman.com</a>
+## **CLASS WEBSITE AND MATERIALS**
 
-#### CLASS WEBSITE/MATERIALS
 All course material will be published to the class [Canvas](https://saic.instructure.com/courses/2861598) page.
 
-### COURSE DESCRIPTION
-**_Blockchain: The New Internet_** will explore blockchain technology as a material for artistic practice and deep critical engagement. Blockchain—a technology designed for the secure storage and transmission of data on a decentralized network—is still in its relative infancy, yet its integration into the social fabric has had far-reaching transformations. What began as a system for facilitating digital payments, like Bitcoin, could potentially revolutionize the internet as we know it.
+## **COURSE DESCRIPTION**
 
-Students in this course will learn about current applications of blockchain as well as the fundamental technical skills to utilize blockchain technology such as smart contracts on the Ethereum blockchain and the Solidity programming language, and will apply these tools toward crafting blockchain-based art works. We will examine the works of contemporary artists working with and around blockchain technologies today like Sarah Meyoas, Simon Denny, Rob Meyers and Larva Labs, while also exploring the work of conceptual artists that explore the relationship between art, networks and economic value like Piero Manzoni, Justin Gignac and Hans Haacke. Readings will cover aspects of the new Internet, the evolution of money, and forms of social exchange. Additional screenings and readings will provide technical foundation for blockchain technology. Students will create a mid-term and final project with respective critiques. Weekly homework assignments will incorporate technical exercises to reinforce in-class material and brief written responses to assigned readings.
+*"The Internet was about the exchange of information. Blockchain is about exchange of assets and exchange of value."* — Research Fellow, Associate Director – Centre for Cryptocurrency Research, Imperial College
 
-### COURSE MATERIALS
-* A computer that can connect to the internet. I think this one is a given!
-* $5-$10. While we can engage with blockchains like the Ethereum blockchain on __free test networks__, there are some situations where we'll need a couple dollars.
+**_Blockchain: The New Internet_** will explore blockchain technology as a material for artistic practice and deep critical engagement. Blockchain—a technology designed for the secure storage and transmission of data on a decentralized network—is still in its relative infancy, yet its integration into the social fabric has had far-reaching transformations. Blockchains, which began as integral technical infrastructure for facilitating digital payments like Bitcoin, has grown to form the foundation of a number of technological systems that have already signficantly changed the way .
 
+Students in this course will learn about current applications of blockchain as well as the technical skills to utilize blockchain technology such as smart contracts on the Ethereum blockchain and the Solidity programming language, and will apply these tools toward crafting blockchain-based art works. We will examine the works of contemporary artists working with and around blockchain technologies today like Sarah Meyoas, Simon Denny, Rob Meyers and Larva Labs, while also exploring the work of conceptual artists that explore the relationship between art, networks and economic value like Piero Manzoni, Justin Gignac and Hans Haacke. Readings will cover aspects of the cultural, historical, philosophical, economic, technical and artistic contexts that intersect with blockchain. Additional screenings and readings will provide technical foundation for blockchain technology. Students will create a mid-term and final project with respective critiques. Weekly homework assignments will incorporate technical exercises to reinforce in-class material and readings to discuss in class.
 
-### ASSESSMENT AND GRADING
+## **ASSESSMENT AND GRADING**
 
 __In order to receive credit for this course:__
+
 1. Follow the attendance guidelines
 2. Attend the final critique
-3. Complete a midterm project
+3. Present work for the midterm
 4. Complete a final project
 
-### READINGS
-_In no particular order. Selections from this list will be assigned to relevant weeks throughout the semester. This list will grow..._
+## **READINGS + VIEWINGS + LISTENINGS**
 
-<a href="http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf" target="blank">_Artists Re:Thinking the Blockchain_</a> – Ruth Catlow, Marc Garrett,
-Nathan Jones & Sam Skinner (2017)<br>
-<a href="https://medium.com/kaleidoscope-xcp/adventures-in-artistic-tokenisation-c5adb70ceed9" target="blank">_Adventures in Artistic Tokenisation_</a> – "Nathan Sonic" (2019)
-##### My to-read list (I haven't read these yet...)
-<a href="https://medium.com/s/art-of-code/poetry-isnt-dead-it-just-got-coded-f42eb1112729" target="blank">_A Poet's Case for Blockchain_</a>
+_Articles, essays, excerpts, podcast segments and video material will be assigned weekly as they pertain to the course content._
+
+_The following book is a foundational text for the course. I will select various readings from this book throughout the course, but you are encouraged to read the entire book. The following link will download the free PDF of the book._
+
+**[Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf)** – Ruth Catlow, Marc Garrett,
+Nathan Jones & Sam Skinner (2017)
+
+### **Other readings**
+
+*In no particular order, some of these readings will be assigned throughout the semester.*
+
+1. [Adventures in Artistic Tokenisation](https://medium.com/kaleidoscope-xcp/adventures-in-artistic-tokenisation-c5adb70ceed9) – Nathan Sonic (2019)
+2. [A Poet's Case for Blockchain](https://medium.com/s/art-of-code/poetry-isnt-dead-it-just-got-coded-f42eb1112729) – Kristi Yorks (2018)
+
+"In practice, we do not use the blockchain, but we would invite the reader to imagine that we do, as it makes the technical development significantly easier, without materially affecting the experience."
+
+## **COURSE OVERVIEW**
+
+I. Blockchain fundamentals:
+
+* past/history
+* present
+* future(s)
+* cultural context
+* blockchain thinking
 
 
-
-#### "In practice, we do not use the blockchain, but we would invite the reader to imagine that we do, as it makes the technical development significantly easier, without materially affecting the experience."
-
-### Loose structure for the semester
-I. Blockchain fundamentals: this portion of the semester will emphasize "blockchain thinking," a process whereby your brain starts to automatically filter your day-to-day thoughts and interactions through a "but what if that, plus blockchain?" Whether it's the Internet, Big Data, The Cloud, Artificial Intelligence, or Blockchain, broad, difficult to define technologies always provide opportunities for broad (mis)understandings. This portion of the semester will focus more on conceptual development of blockchains.
-    * past/history
-    * present
-    * future(s)
-    * cultural context
-    * blockchain thinking
 II. Creating for the blockchain
     * Javascript fundamentals
     * web3.js
@@ -68,11 +75,8 @@ _Following each lecture, materials from the day such as referenced artists, artw
 #### Note: This is a new course in a dynamic emerging field. Our movement along this scheduled route is subject to deviation based on the general direction of student projects and a variety of unpredictable factors. 
 
 ### Week 01 — 09-08-2020: Introductions
-* Syllabus/Introductions
-* LEARNIToken
-* What is blockchain/Blockchain/a blockchain/the blockchain/the Blockchain ?
+* Syllabus/Introductionskchain/Blockchain/a blockchain/the blockchain/the Blockchain ?
 * Make your own cryptocurrency workshop
-* Coding fundamentals
 
 ### Week 02 — 09-15-2020: Blockchain history, mining and consensus
 * History of money, cryptography and Bitcoin
