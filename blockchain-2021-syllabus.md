@@ -1,12 +1,11 @@
 # blockchain: the new internet | ARTTECH 4144 – SYLLABUS
 
-__CREDITS:__ 3
-__SEMESTER:__ Fall 2021 | Tuesday Sep 7, 2021 – Tuesday Dec 14, 2021
-__MEETING DAYS/TIMES:__ Tuesdays, 9am-5pm (9am-12pm, BREAK, 2p-5p)
-__LOCATION:__ Online only (Zoom link will be posted in Canvas)
-__INSTITUTION:__ The School of the Art Institute of Chicago
-
-__INSTRUCTOR:__ Doug Rosman, Lecturer | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
+* __CREDITS:__ 3
+* __SEMESTER:__ Fall 2021 | Tuesday Sep 7, 2021 – Tuesday Dec 14, 2021
+* __MEETING DAYS/TIMES:__ Tuesdays, 9am-5pm (9am-12pm, BREAK, 2p-5p)
+* __LOCATION:__ Online only (Zoom link will be posted in Canvas)
+* __INSTITUTION:__ The School of the Art Institute of Chicago
+* __INSTRUCTOR:__ Doug Rosman, Lecturer | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
 
 ## **CLASS WEBSITE AND MATERIALS**
 
@@ -16,7 +15,7 @@ All course material will be published to the class [Canvas](https://saic.instruc
 
 *"The Internet was about the exchange of information. Blockchain is about exchange of assets and exchange of value."* — Research Fellow, Associate Director – Centre for Cryptocurrency Research, Imperial College
 
-**_Blockchain: The New Internet_** will explore blockchain technology as a material for artistic practice and deep critical engagement. Blockchain—a technology designed for the secure storage and transmission of data on a decentralized network—is still in its relative infancy, yet its integration into the social fabric has had far-reaching transformations. Blockchains, which began as integral technical infrastructure for facilitating digital payments like Bitcoin, has grown to form the foundation of a number of technological systems that have already signficantly changed the way .
+**_Blockchain: The New Internet_** will explore blockchain technology as a material for artistic practice and deep critical engagement. Blockchain—a technology designed for the secure storage and transmission of data on a decentralized network—is still in its relative infancy, yet its integration into the social fabric has had far-reaching transformations.
 
 Students in this course will learn about current applications of blockchain as well as the technical skills to utilize blockchain technology such as smart contracts on the Ethereum blockchain and the Solidity programming language, and will apply these tools toward crafting blockchain-based art works. We will examine the works of contemporary artists working with and around blockchain technologies today like Sarah Meyoas, Simon Denny, Rob Meyers and Larva Labs, while also exploring the work of conceptual artists that explore the relationship between art, networks and economic value like Piero Manzoni, Justin Gignac and Hans Haacke. Readings will cover aspects of the cultural, historical, philosophical, economic, technical and artistic contexts that intersect with blockchain. Additional screenings and readings will provide technical foundation for blockchain technology. Students will create a mid-term and final project with respective critiques. Weekly homework assignments will incorporate technical exercises to reinforce in-class material and readings to discuss in class.
 
