@@ -34,7 +34,7 @@ contract MyToken is ERC20 {
     string private myTokenName = 'My Token'; // 1. The name of your of your Token
     string private myTokenSymbol = 'MYT'; // 2. A 3-letter symbol, like a stock symbol
     uint256 private myAmount = 100; // 3. The amount of tokens you want to create*
-    uint8 private myNumDecimals = 2; // 4. The number of decimal places, 0-18 (The ERC20 default is 18)
+    uint8 private myNumDecimals = 0; // 4. The number of decimal places, 0-18 (The ERC20 default is 18)
     bool private isFixedSupply = false; // 5. set to 'true' if you don't want to mint more of this token in the future
     
     
@@ -90,5 +90,8 @@ contract MyToken is ERC20 {
 // (and still be able to divide a single one of those tokens up to 18 decimal places)
 // Note: if you set your decimals to be a value less than 18, you can find your maximum amount like this:
 // (2^256-1)/10^(myNumDecimals)
+//
+// If you chose 0 decimals, the absolute maximum you could make would be:
+// 115792089237316195423570985008687907853269984665640564039457584007913129639935
 //
 // Source: https://ethereum.stackexchange.com/questions/25228/max-possible-erc20-tokens-allowed-with-18-decimals
