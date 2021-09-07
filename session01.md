@@ -14,7 +14,16 @@
 ### Afternoon
 
 1. Setting up our tools
+   1. Use Firefox or Chrome, no Safari or Edge
+   2. Install the [MetaMask plugin/browser extension](https://metamask.io/) and create an account and wallet
+   3. Add your MetaMask wallet address to this [Google Doc](https://docs.google.com/document/d/1cSG_7wc2ZxakW5AQsfg7-Se_rLnSV-tfDZKyISfvlGI/edit?usp=sharing)
+   4. Go to [remix.ethereum.org](https://remix.ethereum.org/)
+   5. Download my contract code here: [MyToken.sol](code/session01/ERC20Workshop/MyToken.sol)
 2. Create your own Cryptocurrency workshop
+   1. Rai Token
+   2. Workshop Explanation
+   3. Create Tokens
+   4. Share tokens with each other
 3. Go over assignments for the week.
 
 ### Assignments
