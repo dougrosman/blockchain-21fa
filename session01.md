@@ -27,7 +27,7 @@
 
 ### Assignments
 
-#### **1. READ: Artists Re:Thinking the Blockchain (submit responses to Canvas)**
+#### **1. READ: [Artists Re:Thinking the Blockchain (download free PDF)](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf) (submit responses to Canvas)**
 
 Task: Read the following excerpts and write down at least 3 things:
 
