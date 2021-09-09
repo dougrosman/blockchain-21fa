@@ -41,14 +41,31 @@ _Articles, essays, excerpts, podcast segments and video material will be assigne
 
 _The following book is a foundational text for the course. I will select various readings from this book throughout the course, but you are encouraged to read the entire book. The following link will download the free PDF of the book._
 
-**[Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf)** – Ruth Catlow, Marc Garrett,
-Nathan Jones & Sam Skinner (2017)
+**[Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf)** – Ruth Catlow, Marc Garrett, Nathan Jones & Sam Skinner (2017)
 
-"In practice, we do not use the blockchain, but we would invite the reader to imagine that we do, as it makes the technical development significantly easier, without materially affecting the experience."
+*Still adding to this list...*
+
+#### Read
+
+* David Golumbia, *The Politics of Bitcoin: Software as Right-Wing Extremism* (2016) (excerpts)
+* Xiaowei Wang, *Blockchain Chicken Farm*, Chapter 2: On a Blockchain Chicken Farm in the Middle of Nowhere, October 2020
+* Benjamin Bratton, *The Stack: On Software and Sovereignty*, 2015 (excerpts)
+* Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q),July, 2021
+* Kei Kreutler, [*Inventories, Not Identities*](https://blog.gnosis.pm/inventories-not-identities-7da9a4ec5a3e), March, 2021
+* Everest Pipkin, [*HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”*](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3), March 2021
+
+#### Listen
+
+* [Joshua Citarella, *Memes as Politics: Ep 13: DKP is Market Socialism*](http://www.patreon.com/rss/joshuacitarella?auth=MHGsCTCS_BDnKC4mG2ROIUWWU0IDCuet), Memes as Politics Podcast, March 2021
+* Holly Herndon, Matt Dryhurst, Interdependence Podcast, [*Protocol Art Pioneer Rhea Myers*](https://www.patreon.com/rss/interdependence?auth=C-2mbjugOSfc7hlqNDaHPagtZ_3eTv6s), September 2021
+* Holly Herndon, Matt Dryhurst, Interdependence Podcast, [*Primacism: David Rudnick on the struggle for Primacy, type and poetry's unique value in an age of digital and physical conflict, and Percy Shelley's Mont Blanc*](https://www.patreon.com/rss/interdependence?auth=C-2mbjugOSfc7hlqNDaHPagtZ_3eTv6s), February 2021
+
 
 ## **COURSE OVERVIEW**
 
 This course will function as a studio/seminar hybrid course, meaning that there will be a greater emphasis on lectures, reading and discussions than your typical studio course. Given the open nature of blockchains as a material, tool and context for artistic exploration, the nature of work in this class ranges from the deeply conceptual and speculative, to highly technical. While we will spend a good portion of the course learning Solidity–the programming language used to create Ethereum smart contracts–the work you create in this class doesn't have to use these tools. Learning these technologies is difficult, but even if you don't have any coding experience, you will still be able to create work in this class.
+
+"In practice, we do not use the blockchain, but we would invite the reader to imagine that we do, as it makes the technical development significantly easier, without materially affecting the experience."
 
 ## **COURSE GOALS**
 
