@@ -47,6 +47,8 @@ _The following book is a foundational text for the course. I will select various
 
 #### Read
 
+* **Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25) (p. 10-20). _Medium_, October 29, 2020 (Essay)** — This is a summary
+
 * David Golumbia, *The Politics of Bitcoin: Software as Right-Wing Extremism* (2016) (excerpts)
 * Xiaowei Wang, *Blockchain Chicken Farm*, Chapter 2: On a Blockchain Chicken Farm in the Middle of Nowhere, October 2020
 * Benjamin Bratton, *The Stack: On Software and Sovereignty*, 2015 (excerpts)
