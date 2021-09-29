@@ -136,8 +136,8 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 
 ##### **Assignment:**
 Read:
-1. [read] Rhea Myers, *Blockchain Poetics*, page 239-250 of [Artists Re:Thinking the Blockchain](https://saic.instructure.com/courses/3219260/files/218952504?wrap=1), 2017
-2. [read] Rhea Myers, *Three Times Three Modes of Blockchain Art*, May 2019
+1. [read] Rhea Myers, *Blockchain Poetics*, page 239-250 of [Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf), 2017
+2. [read] Rhea Myers, [*Three Times Three Modes of Blockchain Art*](https://rhea.art/three-times-three-modes-of-blockchain-art), May 2019
 3. [listen] [*Protocol Art Pioneer Rhea Myers*](https://saic.instructure.com/media_objects_iframe/m-4WEvuswuKBaUGUtBnQ8EWoXbd4Tx9JAY?type=audio), Interdependence Podcast, 2-hour interview with Rhea Myers). I highly recommend the Interdependence Podcast (Links to an external site.) in general. (Optional, but highly recommended, throw it on in the background while you do your chores or something :) ) 
 
 *Looking ahead to next week's lecture...*
@@ -159,14 +159,16 @@ Read:
 #### **4b Afternoon**
 
 * **Workshop:** [Google's Teachable Machine](https://teachablemachine.withgoogle.com/) + ERC20 Tokens. Using my [PatriotCoin](https://saic.instructure.com/media_objects_iframe/m-WuJVTDzRJfZ2JpKN8qPEaTUJVpQSKey?type=video) sketch as an example, train your own image-based based machine learning model, and create your own currency that will only be rewarded by satisfying the needs of your autonomous computer vision AI.
-* **Assign midterm guidelines**
 
 ##### **Assignment:**
 Read:
-1. [read] Pablo Velasco, *Role Play Your Way to Budgetary Blockchain Bliss*, page 101-105 of [Artists Re:Thinking the Blockchain](https://saic.instructure.com/courses/3219260/files/218952504?wrap=1), 2017
+1. [read] Pablo Velasco, *Role Play Your Way to Budgetary Blockchain Bliss*, page 101-105 of [Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf), 2017
 2. [read] Ruth Catlow and Ben Vickers, *Your DAO Work Booklet*, page 107-128 of Artists Re:Thinking the Blockchain, 2017. (this is a short read; it's a lot of pages, but the content on each page is sparse)
 3. [read] Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q),July, 2021
 4. [read] Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25). _Medium_, October 29, 2020
+5. [read] Primavera De Filippi, [_Plantoid – The Birth of a Blockchain-Based Lifeform_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf),  (p. 51-62). Artists Re:Thinking the Blockchain, 2017 (Essay)
+6. [read] Paul Seidler, Paul Kolling & Max Hampshire, [_terra0 – Can an Augmented Forest Own and Utilize Itself?_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf),  (p. 63-72). Artists Re:Thinking the Blockchain, 2017 (Essay)
+7. [read] Paul Seidler, Paul Kolling & Max Hampshire, [_terra0 Whitepaper_](https://terra0.org/assets/pdf/terra0_white_paper_2016.pdf), 2016 (Whitepaper)
 
 ### Week 5 - 10/5/21
 
