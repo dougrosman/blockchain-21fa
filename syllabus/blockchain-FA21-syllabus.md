@@ -164,10 +164,10 @@ Read:
 Read:
 1. [read] Pablo Velasco, *Role Play Your Way to Budgetary Blockchain Bliss*, page 101-105 of [Artists Re:Thinking the Blockchain](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf), 2017
 2. [read] Ruth Catlow and Ben Vickers, *Your DAO Work Booklet*, page 107-128 of Artists Re:Thinking the Blockchain, 2017. (this is a short read; it's a lot of pages, but the content on each page is sparse)
-3. [read] Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q),July, 2021
+3. [read] Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q), July, 2021
 4. [read] Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25). _Medium_, October 29, 2020
-5. [read] Primavera De Filippi, [_Plantoid – The Birth of a Blockchain-Based Lifeform_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf),  (p. 51-62). Artists Re:Thinking the Blockchain, 2017 (Essay)
-6. [read] Paul Seidler, Paul Kolling & Max Hampshire, [_terra0 – Can an Augmented Forest Own and Utilize Itself?_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf),  (p. 63-72). Artists Re:Thinking the Blockchain, 2017 (Essay)
+5. Primavera De Filippi, [_Plantoid – The Birth of a Blockchain-Based Lifeform_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf), Artists Re:Thinking the Blockchain, (p. 51-62). 2017 (Essay)
+6. [read] Paul Seidler, Paul Kolling & Max Hampshire, [_terra0 – Can an Augmented Forest Own and Utilize Itself?_](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf), Artists Re:Thinking the Blockchain, (p. 63-72). 2017 (Essay)
 7. [read] Paul Seidler, Paul Kolling & Max Hampshire, [_terra0 Whitepaper_](https://terra0.org/assets/pdf/terra0_white_paper_2016.pdf), 2016 (Whitepaper)
 
 ### Week 5 - 10/5/21
