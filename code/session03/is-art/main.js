@@ -21,6 +21,12 @@ const contractABI = [
 // we use the 'contract' variable when we need to read from the blockchain
 const contract = new ethers.Contract(contractAddress, contractABI, provider);
 
+
+// we use the 'tokenWithSigner' variable when we need to do a transaction that
+// involves spending ETH (e.g. sending ETH, sending tokens, writing to a contract)
+const tokenWithSigner = contract.connect(signer);
+
+
 // we use the 'tokenWithSigner' variable when we need to do a transaction that
 // involves spending ETH (e.g. sending ETH, sending tokens, writing to a contract)
 const tokenWithSigner = contract.connect(signer);
@@ -42,6 +48,7 @@ async function viewStatus() {
 }
 
 // Change the status of the contract between "is not art" and "is art"
+
 // You will need to pay a small gas fee to change the status.
 function changeStatus() {
     tokenWithSigner.changeStatus();

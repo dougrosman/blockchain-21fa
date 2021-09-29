@@ -1,26 +1,21 @@
 // SPDX-License-Identifier: GPL-3.0
-// You can upload this contract to Remix in order to deploy it
 
-pragma solidity >= 0.7.0 < 0.9.0;
+pragma solidity >=0.7.0 < 0.9.0;
 
-// The contract name should match the filename
 contract IsArt {
 
-    // A variable to store the status of the contract as art or not art
-    // When the contract is deployed, it begins life not as not art 
-    bool isArt = false;
+    bool isArt = false; // boolean, can be true or false
     
-    // A function to change the status of the contract's artfulness
-    // This function writes to blockchain, and therefore requires a small gas fee
+    // sets the contract to be art or not art
     function changeStatus() public {
-        if(isArt) {
+        if(isArt == true) {
             isArt = false;
         } else {
             isArt = true;
         }
     }
     
-    // A function to view the status of the contract's artfulness
+    // allows us to see the status of the contract as art or not
     function viewStatus() public view returns (string memory){
         if(isArt) {
             return "This contract is art";
