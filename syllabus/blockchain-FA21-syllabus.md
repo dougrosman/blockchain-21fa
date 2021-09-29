@@ -47,13 +47,14 @@ _The following book is a foundational text for the course. I will select various
 
 #### Read
 
-* **Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25) (p. 10-20). _Medium_, October 29, 2020 (Essay)** — This is a summary
+
 
 * David Golumbia, *The Politics of Bitcoin: Software as Right-Wing Extremism* (2016) (excerpts)
 * Xiaowei Wang, *Blockchain Chicken Farm*, Chapter 2: On a Blockchain Chicken Farm in the Middle of Nowhere, October 2020
 * Benjamin Bratton, *The Stack: On Software and Sovereignty*, 2015 (excerpts)
 * Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q),July, 2021
 * Kei Kreutler, [*Inventories, Not Identities*](https://blog.gnosis.pm/inventories-not-identities-7da9a4ec5a3e), March, 2021
+* Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25). _Medium_, October 29, 2020 (Essay)
 * Everest Pipkin, [*HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”*](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3), March 2021
 
 #### Listen
@@ -74,14 +75,16 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 1. Develop an understanding of blockchain technologies, to the point that you could explain the basics to someone who knows nothing about the technology.
 2. Learn the fundamental technologies that enable cryptocurrencies, such as Consensus Algorithms (Proof-of-Work, Proof-of-Stake), Private Key Cryptography, and Hashing Algorithms.
 3. Learn the cultural and historical context of blockchains: why and how they came to be, and how they function in contemporary culture. Specifically, what are the beliefs and biases about technology that guide the development of blockchain-based projects?
-4. Understand how artists have experimented with blockchain, and how the affordances of blockchain, specifically NFTs, are transforming the art world.
-5. Learn the fundamental technical tools that allow you to engage with blockchains in order to create your own currencies, tokens, and smart contracts.
+4. Understand how artists have experimented with blockchain, and how the affordances of blockchain, specifically NFTs, are interacting with the art world.
+5. Gain knowledge of real-world use cases of blockchain technology
+6. Learn fundamental technical tools that allow you to engage with blockchains in order to create your own currencies, tokens, and smart contracts
 
 ## **COURSE SCHEDULE**
 
 *Note, this schedule is more a list of ideas and content we will explore this semester, rather than a rigid weekly scheduled. Put simply, this schedule is subject to change.*
 
 ### Week 1 - 9/7/21
+[Week 1 Lecture Slides](https://docs.google.com/presentation/d/1YXfDZsKE65ul4G5U2pVpmmYneMm9zNnl2hm72QhtQqk/edit?usp=sharing)
 
 #### **1a Morning**
 
@@ -94,9 +97,17 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 #### **1b Afternoon**
 
 * Setting up our tools
-* Create Your Own Cryptocurrency workshop part I
+* **Workshop:** Create your own cryptocurrency (ERC20 Token)
+
+##### **Assignment:**
+1. Read excerpts from *Artists Re:Thinking the Blockchain* ([download free PDF](http://torquetorque.net/wp-content/uploads/ArtistsReThinkingTheBlockchain.pdf))
+   1. Read: A Quasi Proto Preface + Introduction (pg. 9-34)
+   2. Read: FinBook: Literary Content as Digital Commodity (41-49)
+   3. Read: Love on the Block – Max Dovey (251-259)
 
 ### Week 2 - 9/14/21
+
+[Week 2 lecture slides](https://docs.google.com/presentation/d/1vm4aQtrreXtLzb-ZXncsiwkc_H5oM1m0hTQIqGMN50c/edit?usp=sharing)
 
 #### **2a Morning**
 
@@ -106,114 +117,155 @@ This course will function as a studio/seminar hybrid course, meaning that there 
   
 #### **2b Afternoon**
 
-* Create Your Own Cryptocurrency workshop II
+* Open studio time to work on your token
+* Shill us your coin! (present your token to the class)
 
 ### Week 3 - 9/21/21
 
+[Week 3 lecture slides](https://docs.google.com/presentation/d/1ubhvZKf7jUbx_DS26kAjtoFgugGMUYQ_XRGO474nrv0/edit?usp=sharing)
+
 #### **3a Morning**
 
-* Intro to Ethereum (brief history, technical background)
-  * Smart Contracts
-  * The Aesthetics of contracts
-  * ERC 20 (Fungible Token Standard)
-  * ERC 721 (NFT Token Standard)
-  * Ethereum 2.0
+* Continued discussion of Proof-of-work mining and the environmental impact of Bitcoin.
+* Looking at examples of early blockchain art
+* Intro to Ethereum
 
 #### **3b Afternoon**
 
-* Programming Smart Contracts in Solidity - Contract basics
-* Creating a website frontend for interacting with your contract
+* **Workshop:** Replicate Rhea Myer's "[Is Art](https://rhea.art/is-art)" art work by recreating a simple version of her smart contract from scratch, and a basic web page to interact with the contract.
+
+##### **Assignment:**
+Read:
+1. [read] Rhea Myers, *Blockchain Poetics*, page 239-250 of [Artists Re:Thinking the Blockchain](https://saic.instructure.com/courses/3219260/files/218952504?wrap=1), 2017
+2. [read] Rhea Myers, *Three Times Three Modes of Blockchain Art*, May 2019
+3. [listen] [*Protocol Art Pioneer Rhea Myers*](https://saic.instructure.com/media_objects_iframe/m-4WEvuswuKBaUGUtBnQ8EWoXbd4Tx9JAY?type=audio), Interdependence Podcast, 2-hour interview with Rhea Myers). I highly recommend the Interdependence Podcast (Links to an external site.) in general. (Optional, but highly recommended, throw it on in the background while you do your chores or something :) ) 
+
+*Looking ahead to next week's lecture...*
+
+1. [read] Michael Connor, Rhizome, [*Another New World*](https://rhizome.org/editorial/2021/mar/03/another-new-world/), March 2021
+2. [read] Everest Pipkin, [*HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”*](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3), March 2021
+3. [listen] [*NFTs for n00bs: A brief history of tokens and tulips, NFT aesthetics, energy dramas, fan brigades, social tokens and the meataverse with Daniel Keller*](https://saic.instructure.com/media_objects_iframe/m-WuJVTDzRJfZ2JpKN8qPEaTUJVpQSKey?type=video) (New Models), Interdependence Podcast, February 2021, 2-hour discussion with Daniel Keller and Mat Dryhurst (Optional, but highly recommended, throw it on while you ride the train (if that's something you're doing these days :) )) 
 
 ### Week 4 - 9/28/21
 
+[Week 4 lecture slides](https://docs.google.com/presentation/d/1V-hAeeLOJBcofjqpCnOwQdWxoSjUOKubOJ68CjoqTh8/edit?usp=sharing)
+
 #### **4a Morning**
 
-* Cryptocontext:
-  * History of cryptography and cypherpunks
-  * (Brief) History of money
-  * The aesthetics of value/money
-  * Crypto and politics: The libertarianism and anarcho capitalism of Bitcoin and cryptocurrencies, and room for blockchains in socialism.
+* Discuss readings
+* Introduction to NFTs, hype culture, and the potential for NFTs and digital art
+* Technical introduction to Ethereum (the Ethereum Virtual Machine, gas fees, ERC-20 and ERC-721 token standards)
 
 #### **4b Afternoon**
 
-* Programming Smart Contracts in Solidity - ERC 20 Tokens
+* **Workshop:** [Google's Teachable Machine](https://teachablemachine.withgoogle.com/) + ERC20 Tokens. Using my [PatriotCoin](https://saic.instructure.com/media_objects_iframe/m-WuJVTDzRJfZ2JpKN8qPEaTUJVpQSKey?type=video) sketch as an example, train your own image-based based machine learning model, and create your own currency that will only be rewarded by satisfying the needs of your autonomous computer vision AI.
+* **Assign midterm guidelines**
+
+##### **Assignment:**
+Read:
+1. [read] Pablo Velasco, *Role Play Your Way to Budgetary Blockchain Bliss*, page 101-105 of [Artists Re:Thinking the Blockchain](https://saic.instructure.com/courses/3219260/files/218952504?wrap=1), 2017
+2. [read] Ruth Catlow and Ben Vickers, *Your DAO Work Booklet*, page 107-128 of Artists Re:Thinking the Blockchain, 2017. (this is a short read; it's a lot of pages, but the content on each page is sparse)
+3. [read] Kei Kreutler, [*A Prehistory of DAOs*](https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q),July, 2021
+4. [read] Mat Dryhurst, [_DAO Guilds: Establishing Territory_](https://matdryhurst.medium.com/dao-guilds-establishing-territory-e8ba64ae6f25). _Medium_, October 29, 2020
 
 ### Week 5 - 10/5/21
 
 #### **5a Morning**
 
-* NFTs Part I: Looking at the technical structure of NFTs, and the cultural explosion of NFTs, particularly in the last year.
+* An introduction to DAOs (decentralized autonomous organizations)
+* Brief history of "The DAO" and the DAO hack
+* DAOs in art works
 
 #### **5b Afternoon**
 
-* Programming Smart Contracts in Solidity - ERC 721 Tokens (NFTs)
-* Discuss midterms
+* **Workshop:** Going deeper with smart contracts: exploring voting, NFTs, ERC20 tokens, and bringing them all together.
+* Assign midterm
 
 ### Week 6 - 10/12/21
 
 #### **6a Morning**
 
-* Introduction to DAOs (Dencentralized Autonomous Organizations)
-  * What is a DAO
-  * What can a DAO be?
-  * The history of DAOs + The DAO Hack
+* Lecture: Blockchains in the art world:
+  * blockchains + provenance
+  * NFTs for physical art
+  * blockchains + institutional collections and reckoning with colonization.
 
 #### **6b Afternoon**
 
-* DAO workshop
+* Open studio time to work on midterms
 
 ### Week 7 - 10/19/21
 
 #### **7a Morning**
 
-* Midterm presentations part I
+* Lecture: A brief history of money
+* Open studio time to work on midterms
 
 #### **7b Afternoon**
 
-* Midterm presentation part II
-* Mid-semester check-in
+* Midterm presentations
+
+##### **Assignment:**
+Read:
+1. [read] Xiaowei Wang, *Blockchain Chicken Farm*, Chapter 2: On a Blockchain Chicken Farm in the Middle of Nowhere, October 2020
+2. [read] Lily Hay Newman, *[A New Tool Protects Videos From Deepfakes and Tampering](https://www.wired.com/story/amber-authenticate-video-validation-blockchain-tampering-deepfakes/)*, Wired Magazine, February 2019
 
 ### Week 8 - 10/26/21
 
 #### **8a Morning**
 
-* Looking at planetary-scale computation, Ethereum and Benjamin Bratton's *The Stack: On Software and Sovereignty*
-* Code == Law (Wendy Chun's On Source Codes and Sourcery)
+* Lecture: real-world blockchain use cases and the "Oracle Problem":
+  * Supply chain logistics
+  * Blockchain Chicken Farm
+  * Escrow
+  * Prediction markets
+  * Internet of Things
 
 #### **8b Afternoon**
 
-* Programming Smart Contracts in Solidity
-* Google's Teachable Machine (Machine Learning and image recognition in the browser)
+* TBD
+
+##### **Assignment:**
+Read:
+1. [read] Excerpts from Kim Stanley Robinson's (KSR) *Ministry for the Future* that talk about **Carbon Coin**
+2. [read] Excerpts from the Delton Chen's paper that inspired KSR's Carbon Coin ([Hypothesis for a Risk Cost of Carbon: Revising the Externalities and Ethics of Climate Change](https://rd.springer.com/chapter/10.1007/978-3-030-03152-7_8))
 
 ### Week 9 - 11/2/21
 
 #### **9a Morning**
 
-* Oracles, and the Oracle Problem
-* Case study: Carbon Coin
+* Lecture: blockchains, and incentivizing de-carbonization
+  * Case study: Carbon Coin
+* **Workshop:** CoinBrain institute's "unhack the planet" hackathon: using blockchains to incentivize harm reduction (part 1)(group project)
   
 #### **9b Afternoon**
 
-* Programming Smart Contracts in Solidity (Creating an oracle)
-* Discuss final projects
+* Continue the "unhack the planet" workshop
 
 ### Week 10 - 11/9/21
 
 #### **10a Morning**
 
-* Social Tokens and tokenizing the self
-* Brief introduction to DeFi (Decentralized Finance)
+* Lecture: The politics, philosophy and ideologies embedded in crypto
+  * a brief history of the cypherpunks
+  * The context for the creation of Bitcoin
+  * The Anarcho capitalism and right-libertarianism of blockchains
+  * The potential for socialism and democracy with blockchains
+* Continue the "unhack the planet" workshop
 
 #### **10b Afternoon**
 
-* Open studio time
+* Continue the "unhack the planet" workshop
+* Present "unhack the planet" projects
+* **Assign final project guidelines**
 
 ### Week 11 - 11/16/21
 
 #### **11a Morning**
 
-* The Metaverse
-* David Rudnick's "Digital Prime vs. Physical Prime"
+* Lecture:
+  * Code == Law with Wendy Chun's *On Source Codes and Sourcery*
+  * Looking at planetary-scale computation with Benjamin Bratton's *The Stack: On Software and Sovereignty*
 
 #### **11b Afternoon**
 
@@ -223,8 +275,10 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 
 #### **12a Morning**
 
-* Cryptocurrency and government regulation
-* Cryptocurrency and crime
+* Lecture:
+  * Cryptocurrency and government regulation
+  * Cryptocurrency and crime
+* Open Studio time
   
 #### **12b Afternoon**
 
@@ -238,7 +292,8 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 
 #### **13b Afternoon**
 
-* Final Project soft presentations
+* Open Studio time
+* Soft presentations of final projects for initial round of feedback
 
 ### Week 14 - 12/7/21
 
@@ -250,11 +305,11 @@ This course will function as a studio/seminar hybrid course, meaning that there 
 
 #### **15a Morning**
 
-* Final Critiques I
+* Final Critiques group I
   
 #### **15b Afternoon**
 
-* Final Critiques II
+* Final Critiques group II
 
 ## ACCOMMODATIONS FOR STUDENTS WITH DISABILITIES
 
