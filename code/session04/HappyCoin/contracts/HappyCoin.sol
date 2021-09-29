@@ -34,7 +34,7 @@ contract HappyCoin is ERC20 {
     
     string private myTokenName = 'Happy Coin'; // 1. The name of your of your Token
     string private myTokenSymbol = 'HAP'; // 2. A 3-letter symbol, like a stock symbol
-    uint256 private myAmount = 1000; // 3. The amount of tokens you want to create*
+    uint256 private myAmount = 1000; // 3. The amount of tokens you want to create
     uint8 private myNumDecimals = 18; // 4. The number of decimal places, 0-18 (The ERC20 default is 18)
     bool private isFixedSupply = false; // 5. set to 'true' if you don't want to mint more of this token in the future
     address public admin;
@@ -46,7 +46,7 @@ contract HappyCoin is ERC20 {
 
         // how many tokens you want to send to this contract
         uint256 amountForContract = totalSupply/2;
-        // (it must be less than or equal to the amount you mint for yourself (amountForMinter))
+        // (it must be less than or equal to the amount you mint (totalSupply))
         // by default, totalSupply/2 means that half of the tokens you mint will be sent to the contract
         
 
