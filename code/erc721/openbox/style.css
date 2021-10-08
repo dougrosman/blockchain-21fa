@@ -1,0 +1,41 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.box {
+    background: black;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.status-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .25em;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.reward {
+    display: none;
+}
+
+#red-box {
+    background: #ff9999;
+}
+
+#green-box {
+    background: #99ff99;
+}
+
+#blue-box {
+    background: #9999ff;
+}

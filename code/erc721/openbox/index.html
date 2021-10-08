@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Open The Box</title>
+</head>
+<body>
+    <h1>Open the Box</h1>
+    <ol>
+        <li>Create an ERC20 token to be received as a reward from opening the box (BoxToken)</li>
+        <li>Create an ERC721 token that's required to open a box. Different ERC721 tokens can open different boxes (KeyNFT)</li>
+        <li>Create an ERC721 token for each box (BoxNFT)</li>
+        <li>Boxes can be opened and closed, and so need open/closed state variable</li>
+    </ol>
+
+    <main>
+        <div class="row" id="red-row">
+            <div id="red-box" class="box"><div class="status-message">Status: <span class="status">Closed</span></div>Click to open if you hold the red key</div>
+            <div class="reward">Reward: <span class="reward-amount">0</span></div>
+        </div>
+        
+        <div class="row" id="green-row">
+            <div id="green-box" class="box"><div class="status-message">Status: <span class="status">Closed</span></div>Click to open if you hold the green key</div>
+            <div class="reward">Reward: <span class="reward-amount">0</span></div>
+        </div>
+        
+        <div class="row" id="blue-row">
+            <div id="blue-box" class="box"><div class="status-message">Status: <span class="status">Closed</span></div>Click to open if you hold the blue key</div>
+            <div class="reward">Reward: <span class="reward-amount">0</span></div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
