@@ -29,29 +29,42 @@ contract ThreeWords is
         string word3
     );
 
-    address payable public multisig;
-    address payable DRIBNET = payable(0x370433a205B84839B507420B8E22900BAb902a8b);
+    //////////////// VARIABLES ////////////////////////
+    // variables stored permanently on the blockchain
+
+    address payable public multisig; // the multisig variable represents a single "multi-signature" wallet controlled by all three
+                                     // developers below. The multisig wallet was create with gnosis-safe.io (https://gnosis-safe.io/)
+
+    address payable DRIBNET = payable(0x370433a205B84839B507420B8E22900BAb902a8b); // the address of the creator of the AI pixelart tool
+                                                                                   // (useful later to ensure 3% royalties for each mint go to this person)
     address dev1 = 0x8E9da8Ac8643D24Fb19B70Afe563fdE2eC7A7DeC;
     address dev2 = 0xEf3c42eB484aE448CBbE4391D3CC4E16AAaB0d24;
     address dev3 = 0x01f81279Fec131a3E2fa7a61C429cf953d8f3f83;
 
-    uint MAX_SUPPLY = 333;
-    uint DEV_RESERVED = 33;
-    uint256 PRICE = 333 * 10**15; // 0.333 ETH
+    uint MAX_SUPPLY = 333; // only 333 of these NFTs will ever be minted
+    uint DEV_RESERVED = 33; // the first 33 of 333 NFTs are reserved for the developers to mint
+    uint256 PRICE = 333 * 10**15; // 0.333 ETH per mint (approx $1,200 in September 2021, when this went live)
     uint256 ROYALTY_PRICE = 999 * 10**13; // 3% of PRICE
 
     using Counters for Counters.Counter;
 
-    Counters.Counter private _tokenIdTracker;
-    Counters.Counter private _devReserveTracker;
+    Counters.Counter private _tokenIdTracker; // tracks which tokenId should be assigned to each newly minted NFT
+    Counters.Counter private _devReserveTracker; // tracks how many of the initial 33 NFTs have been minted by the developers
 
 
     // think of mappings like phonebooks
+
+    // if you pass in the hash of a phrase, it will return the tokenId associated with the hash
     mapping(bytes32 => uint256) private _phraseIdToTokenId;
 
+    // if you pass in a tokenId, it will return the hash of a phrase associated with that tokenId
     mapping(uint256 => bytes32) private _tokenIdToPhraseId;
 
+    // if you pass in a tokenId, it will return the 3 words of the phrase associated with that tokenId
     mapping(uint256 => string[]) private _tokenIdToWords;
+
+
+    /////////////// FUNCTIONS ////////////////////
 
     constructor(
         string memory name,
@@ -92,24 +105,40 @@ contract ThreeWords is
         return _tokenIdToWords[tokenId];
     }
 
+    // The main event; what all the other pieces of the contract were building towards: minting the NFT
     function mint(string memory _word1, string memory _word2, string memory _word3)
         public
         payable
     {
+        // makes sure all 3 words are not too long
         require (bytes(_word1).length <= 16 && bytes(_word2).length <= 16 && bytes(_word3).length <= 16, "words must be less than 16 bytes");
+        // storing the user's wallet address in the 'receiver' variable
         address receiver = _msgSender();
+
+        // boolean (can be either true or false) checks if the minter is one of the original developers of the contract
         bool receiverIsDev = (receiver == dev1 || receiver == dev2 || receiver == dev3);
+
+        // makes sure you're paying enough ETH to mint
         require (msg.value >= PRICE, "must pay mint fee");
         if (receiverIsDev) {
             require (_devReserveTracker.current() < DEV_RESERVED, "multisig cannot mint more than reserve amount");
             _devReserveTracker.increment();
         }
+
+        // Price - royalties = money split amongst the devs
         uint256 multisigFee = msg.value - ROYALTY_PRICE;
+
+        // actually sends ethereum to DRIBNET
         DRIBNET.call{value: ROYALTY_PRICE}("");
+
+        // actually sends ethereum to the developers
         multisig.call{value: multisigFee}("");
+
+        // checks to make sure that not all 333 NFTs (the max supply) have been minted
         require(_tokenIdTracker.current() - 1 + DEV_RESERVED - _devReserveTracker.current() < MAX_SUPPLY, "max supply reached"); // - 1 because tokenIdTracker.current starts at 1
+        
         bytes32 phraseId = wordsToPhraseId(_word1, _word2, _word3);
-        require(_phraseIdToTokenId[phraseId] == 0, "phrase already minted"); // this is why we start tokenid at 1 (basically, if a phrase is new, its TokenId will default to "0", so we must require the phraseId to be "0" to ensure that it doesn't exist.)
+        require(_phraseIdToTokenId[phraseId] == 0, "phrase already minted"); // this is why we start tokenid at 1 (basically, if a phrase is new, requesting the tokenId of the associated phrase will return "0", so we must require the phraseId to return a tokenId of "0" to ensure that the phrase hasn't been minted yet.)
         uint256 tokenId = _tokenIdTracker.current();
         _phraseIdToTokenId[phraseId] = tokenId;
         _tokenIdToPhraseId[tokenId] = phraseId;
