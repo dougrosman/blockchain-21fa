@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+  font-family: Arial;
+}
+
+#special-box {
+  width: 25%;
+  height: 25%;
+  background: #dd22aa;
+  
+  display: grid;
+  place-items: center;
+}
