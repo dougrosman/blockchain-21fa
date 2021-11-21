@@ -8,18 +8,35 @@
 </head>
 <body>
   <script>
-    if('geolcation' in navigator) {
-      console.log('geolcationa vailable');
+    if('geolocation' in navigator) {
+      console.log('geolocation available');
+      navigator.geolocation.getCurrentPosition(async position => {
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+        document.getElementById('latitude').textContent = lat;
+        document.getElementById('longitude').textContent = lon;
+        //console.log(position);
+
+        // the stuff we're going to send to the server
+        const data = { lat, lon };
+        const options = { 
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        }
+        const response = await fetch('/api', options);
+        const json = await response.json();
+        console.log(json);
+      });
     } else {
       console.log('geolocation not available');
     }
   </script>
 
   <h1>Data Selfie App</h1>
-  <p>Cool</p>
-  <a href="cool.html">Cool</a>
-  <a href="nice.html">Nice</a>
-  
-  <script src="index.js"></script>
+  <p>latitude: <span id="latitude">&deg;</span>
+  <p>longitude: <span id="longitude">&deg;</span>
 </body>
 </html>
