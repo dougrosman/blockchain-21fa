@@ -43,7 +43,7 @@ contract MyToken is ERC20 {
     One "wei" is the smallest amount of ETH you could own. 1 wei == 0.000000000000000001 ETH
     So below, for example, if you set totalSupply to 100 for your token, if you use the default decimal amount of 18, your *actual total supply* will be: 100000000000000000000 MYT.
     */
-    uint256 private totalSupply = 100; // 4. The amount of tokens you want to create
+    uint256 private myTotalSupply = 100; // 4. The amount of tokens you want to create
     uint8 private numDecimals = 0; // 5. The number of decimal places, 0-18 (The ERC20 default is 18)
     
     
@@ -54,7 +54,7 @@ contract MyToken is ERC20 {
     // In this case, the constructor mints the tokens to the person who deploys the contracgt
     constructor() ERC20(myTokenName, myTokenSymbol) {
         admin = msg.sender; // sets the admin to the person who deployed the contract (the contract owner)
-        _mint(msg.sender, totalSupply * 10 ** decimals()); // mint the tokens to the person deploying the contract, based on the totalSupply times 10 ^number of decimals
+        _mint(msg.sender, myTotalSupply * 10 ** decimals()); // mint the tokens to the person deploying the contract, based on the totalSupply times 10 ^number of decimals
     }
     
     // a function to return the number of decimals designated for the token
