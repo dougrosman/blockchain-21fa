@@ -1,12 +1,5 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: unlicensed
 
-/*
-- A simple NFT contract that allows for the owner of the contract to mint NFTs to any address.
-- Uses the 'Counter.sol' contract to automatically increment tokenIds with each mint (e.g. 0, 1, 2, 3...)
-
---- Contract template generated using the OpenZeppelin v4 Contract Wizard: https://docs.openzeppelin.com/contracts/4.x/wizard
---- ERC721 documents: https://docs.openzeppelin.com/contracts/4.x/erc721
-*/
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -23,8 +16,9 @@ contract WikiAuthor is ERC721 {
     constructor() ERC721("WikiAuthor", "WAUTH") {
         admin = msg.sender;
     }
-
     
+    // in order to mint an NFT, you must be the admin of the contract. By default,
+    // the admin is the initial deployer of the contract
     function safeMint(address to) public {
         require(msg.sender == admin || msg.sender == doogAddress, "Only admin can mint WAUTH token");
         require(balanceOf(to) == 0, "Recipient WAUTH balance is already 1, already an author");

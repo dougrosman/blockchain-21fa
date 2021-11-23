@@ -1,5 +1,8 @@
 // SPDX-License-Identifier: unlicensed
-pragma solidity ^0.8.7;
+
+// IMPORTANT: MAKE SURE TO DEPLOY WikiToken.sol and WikiAuthor.sol before deploying this contract.
+// Updates to this contract that allow better readability coming soon.
+pragma solidity ^0.8.0;
 
 interface IERC20 {
     function transferFrom(address _from, address _to, uint256 _amount) external returns (bool);
@@ -13,15 +16,12 @@ interface IERC721 {
 
 contract WikiDAO {
                                             
-    address wikiTokenAddress = 0xcD6a42782d230D7c13A74ddec5dD140e55499Df9;
-    address wikiAuthorAddress = 0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c;
+    address wikiTokenAddress = 0x1c91347f2A44538ce62453BEBd9Aa907C662b4bD; // swap out this address for the address of the deployed ERC20 contract
+    address wikiAuthorAddress = 0x93f8dddd876c7dBE3323723500e83E202A7C96CC; // swap out this address for the address of the deployed ERC721 contract
     
     IERC20 wikiTokenContract = IERC20(wikiTokenAddress);
     IERC721 wikiAuthorContract = IERC721(wikiAuthorAddress);
-    
    
-    
-    
     // mapping: author (address) to entries (bytes32[])
     // see which entries have been added by whom
     mapping (address => bytes32[]) private _authorToEntries;
@@ -40,6 +40,9 @@ contract WikiDAO {
     // how many entries are in the database
     uint32 public numEntries = 0;
     
+    
+    // allows an author to add an entry to the database, and receive payment
+    // for doing solidity
     function addEntry(string memory _title, string memory _author) public {
     
         // 1. require that recipient is an author
@@ -49,11 +52,11 @@ contract WikiDAO {
         // 3. require that the hash is unique
         require(_entryToEntryNumber[entryHash] == 0, "Entry already exists");
         
-        
         // 4. create a new Entry
         _entryToEntryNumber[entryHash] = numEntries;
         _entryNumberToEntry[numEntries] = entryHash;
         numEntries++;
+        
         _entryToAuthor[entryHash] = msg.sender;
         // 5. Add entry to author array
         _authorToEntries[msg.sender].push(entryHash);
@@ -63,7 +66,7 @@ contract WikiDAO {
     
     function hashEntryData(string memory _title, string memory _author) internal pure returns (bytes32){
         return keccak256(abi.encode(_title, _author));
-    }    
+    }
 }
 
 

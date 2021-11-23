@@ -14,7 +14,7 @@ contract WikiToken is ERC20 {
     uint8 private numDecimals = 0;
     
     address public admin;
-    address private doogAddress = 0xFd892bB9b092294ec828B4cC4Ad8c621030c92B2;
+    address private doogAddress = 0xFd892bB9b092294ec828B4cC4Ad8c621030c92B2; // included by Doug for debug purposes
     
     constructor() ERC20(myTokenName, myTokenSymbol) {
         admin = msg.sender; // sets the admin to the person who deployed the contract (the contract owner)
