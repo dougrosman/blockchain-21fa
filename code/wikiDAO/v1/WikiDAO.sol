@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: unlicensed
+/* WikiDAO v1 */
 
 // IMPORTANT: MAKE SURE TO DEPLOY WikiToken.sol and WikiAuthor.sol before deploying this contract.
 // Updates to this contract that allow better readability coming soon.
