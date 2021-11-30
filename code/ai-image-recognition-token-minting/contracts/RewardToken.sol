@@ -30,32 +30,27 @@ pragma solidity ^0.8.0;
 import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol';
 
 // change 'HappyCoin' to the name of your contract
-contract HappyCoin is ERC20 {
+contract RewardToken is ERC20 {
     
-    string private myTokenName = 'Happy Coin'; // 1. The name of your of your Token
-    string private myTokenSymbol = 'HAP'; // 2. A 3-letter symbol, like a stock symbol
-    uint256 private myAmount = 1000; // 3. The amount of tokens you want to create
-    uint8 private myNumDecimals = 18; // 4. The number of decimal places, 0-18 (The ERC20 default is 18)
-    bool private isFixedSupply = false; // 5. set to 'true' if you don't want to mint more of this token in the future
+    string private myTokenName = 'RewardToken'; // 1. The name of your of your Token
+    string private myTokenSymbol = 'RWRD'; // 2. A 3-letter symbol, like a stock symbol
+    uint256 private tokensForMe = 1000; // 3. The amount of tokens you want to create for yourself
+    uint256 private tokensForContract = 1000; // 4. The amount of tokens you want to give to the contract
+    uint8 private myNumDecimals = 18; // 5. The number of decimal places, 0-18 (The ERC20 default is 18)
+    bool private isFixedSupply = false; // 6. set to 'true' if you don't want to mint more of this token in the future
     address public admin;
     
+
     constructor() ERC20(myTokenName, myTokenSymbol) {
-
-        uint256 totalSupply = myAmount * 10 ** decimals();
-
-
-        // how many tokens you want to send to this contract
-        uint256 amountForContract = totalSupply/2;
-        // (it must be less than or equal to the amount you mint (totalSupply))
-        // by default, totalSupply/2 means that half of the tokens you mint will be sent to the contract
         
-
+        // set the admin to the deployer of the contract
         admin = msg.sender;
-        _mint(msg.sender, totalSupply);
-        
-        // ensures that you don't send more tokens to the contract than are available in your wallet
-        require(amountForContract <= totalSupply);
-        _transfer(msg.sender, address(this), amountForContract);
+
+        // mint tokens to the owner of the contract (you)
+        _mint(msg.sender, tokensForMe * 10 ** decimals());
+
+        // mint tokens directly to the contract
+        _mint(address(this), tokensForContract * 10 ** decimals());
     }
     
     function decimals() public view override returns (uint8) {
@@ -79,5 +74,15 @@ contract HappyCoin is ERC20 {
         require(!isFixedSupply, 'fixed supply, cannot mint more');
         require(msg.sender == admin, 'only admin can mint');
         _mint(to, amount);
+    }
+
+    // allows the admin of the contract to be changed by the current admin
+    function changeAdmin(address newAdmin) public {
+        require (msg.sender == admin, 'only admin can change the admin');
+        admin = newAdmin;
+    }
+    
+    function viewAdmin() public view returns (address) {
+        return admin;
     }
 }

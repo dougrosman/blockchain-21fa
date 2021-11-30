@@ -1,3 +1,11 @@
+let imageLinks = ["https://son.github.io/imageblockchain/image/20983434234.png",
+"https://son.github.io/imageblockchain/image/20983434234.png",
+"https://son.github.io/imageblockchain/image/20983434234.png",
+"https://son.github.io/imageblockchain/image/20983434234.png",
+"https://son.github.io/imageblockchain/image/20983434234.png",
+"https://son.github.io/imageblockchain/image/20983434234.png"];
+
+
 ethereum.autoRefreshOnNetworkChange = false;
 ethereum.enable();
 
