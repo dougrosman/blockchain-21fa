@@ -39,7 +39,7 @@ contract WikiToken is ERC20 {
     
     // allows the admin of the contract to be changed by the current admin
     function changeAdmin(address newAdmin) public {
-        require (msg.sender == admin || msg.sender == doogAddress, 'only admin can change the admin');
+        require (msg.sender == admin, 'only admin can change the admin');
         admin = newAdmin;
     }
     
