@@ -144,13 +144,13 @@ async function predict() {
     
     if(winningLabel == "pose 1") {
       console.log("pose 1 is the winner");
-      tokenWithSigner.reward(REWARD_AMOUNT);
+      tokenWithSigner.reward(REWARD_AMOUNT); // reward tokens
     } else if (winningLabel == "pose 2") {
       console.log("pose 2 is the winner");
-      tokenWithSigner.reward(REWARD_AMOUNT * 2);
+      tokenWithSigner.reward(REWARD_AMOUNT * 2); // reward tokens
     } else if (winningLabel == "pose 3") {
       console.log("pose 3 is the winner");
-      tokenWithSigner.reward(REWARD_AMOUNT * 3);
+      tokenWithSigner.reward(REWARD_AMOUNT * 3); // reward tokens
     } else {
       console.log("resting is the winner");
     }
