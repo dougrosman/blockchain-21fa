@@ -134,9 +134,9 @@ async function predict() {
 
   // SEND TRANSACTIONS DEPENDING ON WHICH POSE IS HELD THE LONGEST
 
-  const HOLD_THRESHOLD = 20; // how many times in a row a pose must be predicted in order to call it the winner
+  const HOLD_THRESHOLD = 20; // how many times in a row a pose must be predicted in order to call it the winner (roughly 5 predictions are made per second)
 
-  let REWARD_AMOUNT = 10; // how many tokens you want to reward
+  let REWARD_AMOUNT = 1; // how many tokens you want to reward
   
   // REWARD_AMOUNT = BigInt(REWARD_AMOUNT * Math.pow(0, decimals));
   
