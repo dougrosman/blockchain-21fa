@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="lib/ethers-5.2.umd.min.js"></script>
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/tf.min.js"></script>
+  <script src="lib/teachablemachine-pose.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Happy Coin</title>
+  <style>
+    #pose-meter {
+      width: 1px;
+      height: 20px;
+      background: 0;
+      transform-origin: top left;
+    }
+  </style>
+</head>
+
+<body>
+  <div>Teachable Machine Pose Model</div>
+  <button type="button" onclick="init()">Start</button>
+  <div><canvas id="canvas"></canvas></div>
+  <div id="label-container"></div>
+  <div id="pose-meter"></div>
+
+
+  <script src="reward-interaction.js"></script>
+</body>
+
+</html>
