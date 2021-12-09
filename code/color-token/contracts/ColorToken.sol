@@ -12,6 +12,3 @@ contract ColorToken is ERC721 {
         return newItemId;
     }
 }
-
-
-

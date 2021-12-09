@@ -43,10 +43,15 @@ const contractABI = [
   "function increaseAllowance(address spender, uint256 addedValue) public returns (bool)",
   "function decreaseAllowance(address spender, uint256 subtractedValue) public returns (bool)",
   "function reward(uint256 amt) public payable",
-  "function mint(address to, uint256 amount) external"
+  "function mint(uint256 amount) external"
 ];
 const contract = new ethers.Contract(contractAddress, contractABI, provider);
 const tokenWithSigner = contract.connect(signer);
+
+// when you want to reward somebody with tokens, call this function:
+// tokenWithSigner.mint(numTokens);
+
+////// END ETHEREUM SETUP
 
 let classifier;
 let imageModelURL = 'model/tm-my-image-model/model.json';

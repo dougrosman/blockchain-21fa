@@ -3,7 +3,7 @@ ethereum.autoRefreshOnNetworkChange = false;
 window.ethereum.enable();
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const signer = provider.getSigner();
-const contractAddress = "0xa3542ccDAbCE8F7934B278c94680593531019F6B";
+const contractAddress = "0xa3542ccDAbCE8F7934B278c94680593531019F6B"; // REPLACE WITH YOUR CONTRACT ADDRESS
 const contractABI = [
   "function name() public view returns (string memory)",
   "function symbol() public view returns (string memory)",
@@ -16,10 +16,13 @@ const contractABI = [
   "function transferFrom(address sender, address recipient, uint256 amount) public returns (bool)",
   "function increaseAllowance(address spender, uint256 addedValue) public returns (bool)",
   "function decreaseAllowance(address spender, uint256 subtractedValue) public returns (bool)",
-  "function reward(uint256 amt) public payable"
+  "function reward(uint256 amt) public payable",
+  "function mint(uint256 amt) external"
 ];
 const contract = new ethers.Contract(contractAddress, contractABI, provider);
 const tokenWithSigner = contract.connect(signer);
+
+/////////// END ETHEREUM SETUP ///////////
 
 let classifier;
 let imageModelURL = 'models/tm-my-image-model/model.json';

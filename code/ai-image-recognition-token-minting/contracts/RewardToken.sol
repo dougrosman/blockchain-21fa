@@ -64,16 +64,16 @@ contract RewardToken is ERC20 {
         require(amt > 0, "No reward??");
         require(amt <= contractBalance, "Not enough tokens in the reserve");
         require(!isFixedSupply, 'fixed supply, cannot mint more');
-        require(msg.sender == admin, 'only admin can mint');
+        // require(msg.sender == admin, 'only admin can mint');
         _transfer(address(this), msg.sender, amt);
+        
     }
 
     // this function allows the original creator of this contract to
     // mint more tokens and increase the supply
     function mint(address to, uint256 amount) external {
         require(!isFixedSupply, 'fixed supply, cannot mint more');
-        require(msg.sender == admin, 'only admin can mint');
-        _mint(to, amount);
+        _mint(msg.sender, amount * 10 ** decimals());
     }
 
     // allows the admin of the contract to be changed by the current admin
