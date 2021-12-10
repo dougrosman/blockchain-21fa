@@ -6,9 +6,20 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: .5rem;
 }
+
+@media (min-width: 500px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        gap: .5rem;
+    }
+}
+
+
 
 .gallery img {
     width: 100%;
